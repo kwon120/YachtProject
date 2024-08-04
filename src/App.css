@@ -1,0 +1,121 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 2px gray;
+  background-color: rgb(201, 139, 139);
+}
+
+section {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+ol {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+li {
+  background-color: white;
+  margin: 0px;
+  height: 30px;
+  width: 130px;
+  border: 1px solid gray;
+}
+
+.scoreCheck:hover {
+  cursor: grabbing;
+  border: 3px solid blue;
+}
+
+.boardDiv {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.boardDiv div {
+  margin-bottom: 15px;
+  padding: 150px 100px;
+  background-color: green;
+}
+
+.boardDiv ul li{
+  padding: 0px;
+  margin: 3px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+img {
+  padding: 5px;
+  width: 45x;
+  height: 45px;
+}
+
+footer {
+  margin: 30px 0px;
+  padding: 10px;
+}
+
+footer button {
+  margin: 0px 40px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+}
