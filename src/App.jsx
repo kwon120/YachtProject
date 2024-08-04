@@ -59,7 +59,7 @@ function App() {
   }
 
   const errorImg = (e) => {
-    e.target.src = '/src/X.png';
+    e.target.src = './public/X.png';
   }
 
   const upScore = (i) => {
@@ -283,19 +283,19 @@ function App() {
         </section>
         <div className='boardDiv'>
             <ul className='storeDice'>
-              <li><img src={`/src/D${String(upDice[0])}.png`} onError={errorImg}/></li>
-              <li><img src={`/src/D${String(upDice[1])}.png`} onError={errorImg}/></li>
-              <li><img src={`/src/D${String(upDice[2])}.png`} onError={errorImg}/></li>
-              <li><img src={`/src/D${String(upDice[3])}.png`} onError={errorImg}/></li>
-              <li><img src={`/src/D${String(upDice[4])}.png`} onError={errorImg}/></li>
+              <li><img src={`./public/D${String(upDice[0])}.png`} onError={errorImg}/></li>
+              <li><img src={`./public/D${String(upDice[1])}.png`} onError={errorImg}/></li>
+              <li><img src={`./public/D${String(upDice[2])}.png`} onError={errorImg}/></li>
+              <li><img src={`./public/D${String(upDice[3])}.png`} onError={errorImg}/></li>
+              <li><img src={`./public/D${String(upDice[4])}.png`} onError={errorImg}/></li>
             </ul>
             <div></div>
             <ul className='randomDice'>
-              <li onClick={() => removeDice(0)}><img src={`/src/D${String(resultArray[0])}.png`} onError={errorImg}/></li>
-              <li onClick={() => removeDice(1)}><img src={`/src/D${String(resultArray[1])}.png`} onError={errorImg}/></li>
-              <li onClick={() => removeDice(2)}><img src={`/src/D${String(resultArray[2])}.png`} onError={errorImg}/></li>
-              <li onClick={() => removeDice(3)}><img src={`/src/D${String(resultArray[3])}.png`} onError={errorImg}/></li>
-              <li onClick={() => removeDice(4)}><img src={`/src/D${String(resultArray[4])}.png`} onError={errorImg}/></li>
+              <li onClick={() => removeDice(0)}><img src={`./public/D${String(resultArray[0])}.png`} onError={errorImg}/></li>
+              <li onClick={() => removeDice(1)}><img src={`./public/D${String(resultArray[1])}.png`} onError={errorImg}/></li>
+              <li onClick={() => removeDice(2)}><img src={`./public/D${String(resultArray[2])}.png`} onError={errorImg}/></li>
+              <li onClick={() => removeDice(3)}><img src={`./public/D${String(resultArray[3])}.png`} onError={errorImg}/></li>
+              <li onClick={() => removeDice(4)}><img src={`./public/D${String(resultArray[4])}.png`} onError={errorImg}/></li>
             </ul>
             <p>머가 떴을까용~</p>
         </div>
